@@ -1,6 +1,7 @@
 # SRE om AWS
 
-## Intro
+## Section 1: The basics of Site Realiability Engineering
+### Intro
 
 ![Intro](./img/1.png)
 ![Intro](./img/2.png)
@@ -36,3 +37,20 @@ Repo: https://github.com/mt2h/Site-Reliability-Engineering-on-AWS
 ![SRE is a Mindset](./img/18.png)
 ![SRE is a Mindset](./img/19.png)
 ![SRE is a Mindset](./img/20.png)
+
+## Section 2: Gaining Resilence and Realiability on AWS
+
+### AWS Global, Regional and Zonal Architecture Design
+
+![AWS Global, Regional and Zonal Architecture Design](./img/21.png)
+![AWS Global, Regional and Zonal Architecture Design](./img/22.png)
+![AWS Global, Regional and Zonal Architecture Design](./img/23.png)
+![AWS Global, Regional and Zonal Architecture Design](./img/24.png)
+![AWS Global, Regional and Zonal Architecture Design](./img/25.png)
+
+### Amazon's Global Storage Service - S3
+
+![Amazon's Global Storage Service - S3](./img/26.png)
+![Amazon's Global Storage Service - S3](./img/27.png)
+![Amazon's Global Storage Service - S3](./img/28.png)
+![Amazon's Global Storage Service - S3](./img/29.png)
