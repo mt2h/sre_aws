@@ -54,3 +54,33 @@ Repo: https://github.com/mt2h/Site-Reliability-Engineering-on-AWS
 ![Amazon's Global Storage Service - S3](./img/27.png)
 ![Amazon's Global Storage Service - S3](./img/28.png)
 ![Amazon's Global Storage Service - S3](./img/29.png)
+
+### Running Resilient Databases on AWS - RDS and DynamoDB
+
+![Running Resilient Databases on AWS - RDS and DynamoDB](./img/30.png)
+![Running Resilient Databases on AWS - RDS and DynamoDB](./img/31.png)
+![Running Resilient Databases on AWS - RDS and DynamoDB](./img/32.png)
+![Running Resilient Databases on AWS - RDS and DynamoDB](./img/33.png)
+
+### Fault Tolerant Computation on AWS - Lamba and EC2
+
+![Fault Tolerant Computation on AWS - Lamba and EC2](./img/34.png)
+![Fault Tolerant Computation on AWS - Lamba and EC2](./img/35.png)
+![Fault Tolerant Computation on AWS - Lamba and EC2](./img/36.png)
+![Fault Tolerant Computation on AWS - Lamba and EC2](./img/37.png)
+![Fault Tolerant Computation on AWS - Lamba and EC2](./img/38.png)
+
+### Core Resilience Principles for AWS - Load Balacing and Auto Scaling
+
+![Core Resilience Principles for AWS - Load Balacing and Auto Scaling](./img/39.png)
+![Core Resilience Principles for AWS - Load Balacing and Auto Scaling](./img/40.png)
+![Core Resilience Principles for AWS - Load Balacing and Auto Scaling](./img/41.png)
+
+### Using Kubernetes and ECS on AWS
+
+![Using Kubernetes and ECS on AWS](./img/42.png)
+![Using Kubernetes and ECS on AWS](./img/43.png)
+![Using Kubernetes and ECS on AWS](./img/44.png)
+![Using Kubernetes and ECS on AWS](./img/45.png)
+![Using Kubernetes and ECS on AWS](./img/46.png)
+![Using Kubernetes and ECS on AWS](./img/47.png)
