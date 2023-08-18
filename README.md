@@ -84,3 +84,17 @@ Repo: https://github.com/mt2h/Site-Reliability-Engineering-on-AWS
 ![Using Kubernetes and ECS on AWS](./img/45.png)
 ![Using Kubernetes and ECS on AWS](./img/46.png)
 ![Using Kubernetes and ECS on AWS](./img/47.png)
+
+## Section 3: Accepting Failure in Multi-Tier Applications
+
+### Typical Three-Tier Application Resilience and Why it fails in Cloud
+
+![Typical Three-Tier Application Resilience and Why it fails in Cloud](./img/48.png)
+![Typical Three-Tier Application Resilience and Why it fails in Cloud](./img/49.png)
+![Typical Three-Tier Application Resilience and Why it fails in Cloud](./img/50.png)
+
+### Desinging in Resilience with Microservices
+
+![Desinging in Resilience with Microservices](./img/51.png)
+![Desinging in Resilience with Microservices](./img/52.png)
+![Desinging in Resilience with Microservices](./img/53.png)
