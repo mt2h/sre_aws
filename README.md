@@ -180,6 +180,9 @@ En resumen, AWS X-Ray es una herramienta poderosa para rastrear y analizar el fl
 
 ## Deploying Py-Simple on AWS
 
+
+### Optimizing and Migratingf Our Code
+
 ![Deploying Py-Simple on AWS](./img/69.png)
 ![Deploying Py-Simple on AWS](./img/70.png)
 ![Deploying Py-Simple on AWS](./img/71.png)
@@ -207,3 +210,34 @@ Push files to the repository
 
 ![Deploying Py-Simple on AWS](./img/77.png)
 ![Deploying Py-Simple on AWS](./img/78.png)
+
+### Creating our Container with CodeBuild
+
+![Creating our Container with CodeBuild](./img/79.png)
+
+Repo Create CodeBuild: https://github.com/mt2h/Site-Reliability-Engineering-on-AWS/tree/master/packt-sre-code/packt-sre/IAC/2-codebuild
+
+![Creating our Container with CodeBuild](./img/80.png)
+
+Repo Create ECR: https://github.com/mt2h/Site-Reliability-Engineering-on-AWS/tree/master/packt-sre-code/packt-sre/IAC/3-ecr
+
+![Creating our Container with CodeBuild](./img/81.png)
+
+Pipeline: https://github.com/mt2h/Site-Reliability-Engineering-on-AWS/blob/master/packt-sre-code/packt-sre/build/buildspec.yml
+
+![Creating our Container with CodeBuild](./img/82.png)
+![Creating our Container with CodeBuild](./img/83.png)
+![Creating our Container with CodeBuild](./img/84.png)
+![Creating our Container with CodeBuild](./img/85.png)
+![Creating our Container with CodeBuild](./img/86.png)
+![Creating our Container with CodeBuild](./img/87.png)
+![Creating our Container with CodeBuild](./img/88.png)
+![Creating our Container with CodeBuild](./img/89.png)
+
+### Deploying ECS and RDS
+
+![Deploying ECS and RDS](./img/90.png)
+
+Repo Create RDS: https://github.com/mt2h/Site-Reliability-Engineering-on-AWS/tree/master/packt-sre-code/packt-sre/IAC/4-rds
+
+Repo Create Load Balancer And ECS: https://github.com/mt2h/Site-Reliability-Engineering-on-AWS/tree/master/packt-sre-code/packt-sre/IAC/5-ecs
