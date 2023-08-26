@@ -241,3 +241,68 @@ Pipeline: https://github.com/mt2h/Site-Reliability-Engineering-on-AWS/blob/maste
 Repo Create RDS: https://github.com/mt2h/Site-Reliability-Engineering-on-AWS/tree/master/packt-sre-code/packt-sre/IAC/4-rds
 
 Repo Create Load Balancer And ECS: https://github.com/mt2h/Site-Reliability-Engineering-on-AWS/tree/master/packt-sre-code/packt-sre/IAC/5-ecs
+
+### Deploying and Testing our Py-Simple Application
+
+![Deploying and Testing our Py-Simple Application](./img/91.png)
+![Deploying and Testing our Py-Simple Application](./img/92.png)
+![Deploying and Testing our Py-Simple Application](./img/93.png)
+![Deploying and Testing our Py-Simple Application](./img/94.png)
+
+Un servidor EC2 bastion, también conocido como "bastión host" o "bastion instance" en inglés, es un tipo de instancia en Amazon Web Services (AWS) que se utiliza para administrar y acceder de manera segura a otras instancias ubicadas en una red privada. La función principal de un servidor EC2 bastion es proporcionar un punto de entrada seguro para los administradores o usuarios autorizados que necesitan acceder a las instancias dentro de una red privada o un VPC (Virtual Private Cloud).
+
+En arquitecturas de red, a menudo se establecen zonas de seguridad. Las instancias en una red privada no tienen acceso directo desde Internet, lo que aumenta su seguridad, pero puede dificultar la administración. Aquí es donde entra en juego el servidor EC2 bastion. Este servidor se coloca en una zona de seguridad menos restringida, como una red pública, y se configura con los adecuados mecanismos de seguridad, como claves SSH y reglas de seguridad de grupo. Cuando un administrador necesita acceder a las instancias en la red privada, se conecta primero al servidor bastion y, desde allí, puede iniciar una conexión segura hacia las instancias de la red privada.
+
+El servidor bastion actúa como un punto de entrada controlado, limitando las posibles superficies de ataque y protegiendo las instancias en la red privada al no exponerlas directamente a Internet. Esto ayuda a reducir el riesgo de ataques maliciosos y mejora la seguridad en general. Es una práctica común en la administración de sistemas y en la configuración de la infraestructura en la nube, como en AWS.
+
+![Deploying and Testing our Py-Simple Application](./img/95.png)
+
+Repo: https://github.com/mt2h/Site-Reliability-Engineering-on-AWS/tree/master/packt-sre-code/packt-sre/IAC/6-ecs-task
+
+Tarea (Task) en Amazon ECS:
+Una tarea en Amazon ECS representa la unidad más pequeña de trabajo que puedes enviar a la plataforma. Puede consistir en uno o más contenedores que se ejecutan juntos en la misma instancia EC2 o en la misma instancia Fargate (en este caso). Los contenedores en una misma tarea comparten recursos, como red y almacenamiento. En otras palabras, una tarea define cómo se ejecutarán uno o más contenedores juntos, y qué recursos (CPU, memoria, puertos, variables de entorno, etc.) estarán disponibles para cada contenedor.
+
+Servicio en Amazon ECS:
+Un servicio en Amazon ECS es un recurso que define cómo se ejecutan y escalan las tareas en una plataforma de contenedores. Un servicio se encarga de administrar un conjunto de tareas idénticas (definidas por la misma definición de tarea). Cuando creas un servicio, le indicas a ECS cuántas instancias (tareas) de la tarea definida debe mantener en ejecución. Además, un servicio controla la manera en que las tareas se distribuyen en las instancias y cómo se escalan en función de la demanda.
+
+#### ECS Task
+
+![Deploying and Testing our Py-Simple Application](./img/96.png)
+![Deploying and Testing our Py-Simple Application](./img/97.png)
+![Deploying and Testing our Py-Simple Application](./img/98.png)
+![Deploying and Testing our Py-Simple Application](./img/99.png)
+![Deploying and Testing our Py-Simple Application](./img/100.png)
+![Deploying and Testing our Py-Simple Application](./img/101.png)
+![Deploying and Testing our Py-Simple Application](./img/102.png)
+
+#### Cluster
+
+![Deploying and Testing our Py-Simple Application](./img/103.png)
+![Deploying and Testing our Py-Simple Application](./img/104.png)
+![Deploying and Testing our Py-Simple Application](./img/105.png)
+![Deploying and Testing our Py-Simple Application](./img/106.png)
+#### CloudWatch
+
+![Deploying and Testing our Py-Simple Application](./img/107.png)
+![Deploying and Testing our Py-Simple Application](./img/108.png)
+![Deploying and Testing our Py-Simple Application](./img/109.png)
+![Deploying and Testing our Py-Simple Application](./img/110.png)
+![Deploying and Testing our Py-Simple Application](./img/111.png)
+![Deploying and Testing our Py-Simple Application](./img/112.png)
+![Deploying and Testing our Py-Simple Application](./img/113.png)
+
+
+La métrica (100 - (total_requests\requests_ok)) se utiliza para medir la disponibilidad de un servicio y es comúnmente conocida como "Error Rate" o tasa de errores. En el contexto de Site Reliability Engineering (SRE), esta métrica se considera un Service Level Indicator (SLI), que es una medida cuantitativa de un aspecto específico del rendimiento o confiabilidad de un servicio.
+
+En términos simples:
+
+- `total_requests`: Es el total de solicitudes realizadas al servicio durante un período de tiempo determinado.
+- `requests_ok`: Es el número de solicitudes que se completaron correctamente (sin errores) durante ese mismo período de tiempo.
+
+La métrica (100 - (total_requests\requests_ok)) calcula la proporción de solicitudes que resultaron en algún tipo de error. Un valor bajo de esta métrica indica una alta disponibilidad, ya que hay menos errores en relación con el total de solicitudes. Por otro lado, un valor alto indica una menor disponibilidad debido a una mayor cantidad de errores.
+
+En un contexto de ingeniería de confiabilidad de sitios (SRE), las métricas como esta se utilizan para evaluar el rendimiento y la disponibilidad de los sistemas y para identificar áreas que requieren mejoras. Los SLIs son una parte fundamental de la práctica de SRE, ya que ayudan a establecer objetivos cuantitativos y medibles para la confiabilidad del servicio y permiten a los equipos monitorear y mejorar continuamente su infraestructura y aplicaciones para alcanzar esos objetivos.
+
+![Deploying and Testing our Py-Simple Application](./img/114.png)
+
+### The problem with what we've just built
