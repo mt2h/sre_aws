@@ -305,4 +305,47 @@ En un contexto de ingeniería de confiabilidad de sitios (SRE), las métricas co
 
 ![Deploying and Testing our Py-Simple Application](./img/114.png)
 
-### The problem with what we've just built
+## Designing Py-Global
+
+### The Architecture of Py-Global and Failure Mode Analysis
+
+![The Architecture of Py-Global and Failure Mode Analysis](./img/115.png)
+![The Architecture of Py-Global and Failure Mode Analysis](./img/116.png)
+
+### Multi-Regional Support
+
+![Multi-Regional Support](./img/117.png)
+
+Repos:
+ - https://github.com/mt2h/Site-Reliability-Engineering-on-AWS/tree/master/packt-sre-code/packt-sre/IAC/7-multiregion-ecs
+ - https://github.com/mt2h/Site-Reliability-Engineering-on-AWS/tree/master/packt-sre-code/packt-sre/IAC/8-multiregion-rds
+
+ ![Multi-Regional Support](./img/118.png)
+ ![Multi-Regional Support](./img/119.png)
+
+ ### Microservices Design
+
+  ![Microservices Design](./img/120.png)
+
+  Repo: https://github.com/mt2h/Site-Reliability-Engineering-on-AWS/tree/master/packt-sre-code/packt-sre/py-cars/cars
+
+  ### Authentication and Authorization
+
+![Microservices Design](./img/121.png)
+![Microservices Design](./img/122.png)
+![Microservices Design](./img/123.png)
+![Microservices Design](./img/124.png)
+![Microservices Design](./img/125.png)
+![Microservices Design](./img/126.png)
+![Microservices Design](./img/127.png)
+![Microservices Design](./img/128.png)
+![Microservices Design](./img/129.png)
+![Microservices Design](./img/130.png)
+![Microservices Design](./img/131.png)
+![Microservices Design](./img/132.png)
+![Microservices Design](./img/133.png)
+![Microservices Design](./img/134.png)
+![Microservices Design](./img/135.png)
+![Microservices Design](./img/136.png)
+![Microservices Design](./img/137.png)
+![Microservices Design](./img/138.png)
