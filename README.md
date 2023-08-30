@@ -349,3 +349,42 @@ Repos:
 ![Microservices Design](./img/136.png)
 ![Microservices Design](./img/137.png)
 ![Microservices Design](./img/138.png)
+
+### Application Telemetry and Tracing
+
+![Application Telemetry and Tracing](./img/139.png)
+
+Repo: https://github.com/mt2h/Site-Reliability-Engineering-on-AWS/tree/master/packt-sre-code/packt-sre/py-cars/cars
+
+![Application Telemetry and Tracing](./img/140.png)
+![Application Telemetry and Tracing](./img/141.png)
+![Application Telemetry and Tracing](./img/142.png)
+![Application Telemetry and Tracing](./img/143.png)
+![Application Telemetry and Tracing](./img/144.png)
+
+Repo: https://github.com/mt2h/Site-Reliability-Engineering-on-AWS/tree/master/packt-sre-code/packt-sre/rds-cdc
+
+Amazon Kinesis es un servicio de transmisión de datos en tiempo real proporcionado por Amazon Web Services (AWS). Permite capturar, procesar y analizar grandes volúmenes de datos en tiempo real, lo que lo hace ideal para aplicaciones que requieren el procesamiento y análisis de datos en tiempo real, como el análisis de registros, la generación de informes en tiempo real, la detección de anomalías, la monitorización de aplicaciones, entre otros.
+
+Kinesis ofrece diferentes servicios para satisfacer diferentes necesidades:
+
+1. Amazon Kinesis Data Streams: Es el servicio principal de transmisión de datos en tiempo real. Permite capturar y almacenar grandes volúmenes de datos en tiempo real, divididos en fragmentos (shards), que pueden ser procesados por múltiples aplicaciones o consumidores.
+
+2. Amazon Kinesis Data Firehose: Es un servicio que permite cargar datos en tiempo real en destinos de almacenamiento y análisis, como Amazon S3, Amazon Redshift o Amazon Elasticsearch Service, sin necesidad de escribir código adicional.
+
+3. Amazon Kinesis Data Analytics: Es un servicio que permite procesar y analizar datos en tiempo real utilizando consultas SQL estándar. Permite realizar transformaciones, agregaciones y análisis en tiempo real sobre los datos que fluyen a través de Kinesis Data Streams.
+
+4. Amazon Kinesis Video Streams: Es un servicio que permite capturar, procesar y almacenar flujos de video en tiempo real para aplicaciones de análisis de video y aprendizaje automático.
+
+Es importante tener en cuenta que la replicación lógica en PostgreSQL no crea una réplica de solo lectura de la base de datos. En cambio, captura los cambios realizados en la base de datos y los envía a un destino externo para su procesamiento. En este caso, los cambios se envían al servicio de Kinesis para su posterior procesamiento.
+
+![Application Telemetry and Tracing](./img/145.png)
+![Application Telemetry and Tracing](./img/146.png)
+![Application Telemetry and Tracing](./img/147.png)
+![Application Telemetry and Tracing](./img/148.png)
+
+### Autora and it Advantages over MySQL
+
+![Autora and it Advantages over MySQL](./img/149.png)
+![Autora and it Advantages over MySQL](./img/150.png)
+![Autora and it Advantages over MySQL](./img/151.png)
