@@ -388,3 +388,41 @@ Es importante tener en cuenta que la replicación lógica en PostgreSQL no crea 
 ![Autora and it Advantages over MySQL](./img/149.png)
 ![Autora and it Advantages over MySQL](./img/150.png)
 ![Autora and it Advantages over MySQL](./img/151.png)
+
+## Deploying a Resilient, Fault Tolerant Py-Global Application
+
+### Running/Scaling our Application on EKS
+
+![Running/Scaling our Application on EKS](./img/152.png)
+![Running/Scaling our Application on EKS](./img/153.png)
+
+Repo: 
+  - https://github.com/mt2h/Site-Reliability-Engineering-on-AWS/tree/master/packt-sre-code/packt-sre/IAC/10-eks
+  - https://github.com/mt2h/Site-Reliability-Engineering-on-AWS/blob/master/packt-sre-code/packt-sre/py-cars/skaffold.yaml
+  - https://github.com/mt2h/Site-Reliability-Engineering-on-AWS/tree/master/packt-sre-code/packt-sre/py-cars/k8/std
+
+![Running/Scaling our Application on EKS](./img/154.png)  
+![Running/Scaling our Application on EKS](./img/155.png)
+![Running/Scaling our Application on EKS](./img/156.png)
+![Running/Scaling our Application on EKS](./img/157.png)
+
+```bash
+skaffold dev
+```
+
+Skaffold es una herramienta de código abierto desarrollada por Google que facilita el proceso de desarrollo y despliegue de aplicaciones en contenedores dentro de un clúster de Kubernetes. Su objetivo principal es agilizar y simplificar el flujo de trabajo al permitir a los desarrolladores iterar rápidamente en sus aplicaciones mientras las desarrollan y despliegan en un entorno de Kubernetes.
+
+El comando `skaffold dev` es uno de los comandos clave proporcionados por Skaffold. Cuando ejecutas `skaffold dev`, Skaffold se encarga de monitorear los archivos de tu proyecto y detectar cambios en el código fuente, las configuraciones de Docker y otros archivos relevantes. Una vez que detecta cambios, Skaffold automatiza la construcción de imágenes de contenedor, la actualización de los recursos de Kubernetes y el despliegue de tus aplicaciones actualizadas en el clúster de Kubernetes.
+
+```bash
+skaffold delete
+```
+
+### Creating a Resilient and Reliable Data Store for Python with Amazon Aurora
+
+![Creating a Resilient and Reliable Data Store for Python with Amazon Aurora](./img/158.png)
+
+Repo: https://github.com/mt2h/Site-Reliability-Engineering-on-AWS/tree/master/packt-sre-code/packt-sre/IAC/11-aurora
+
+![Creating a Resilient and Reliable Data Store for Python with Amazon Aurora](./img/159.png)
+![Creating a Resilient and Reliable Data Store for Python with Amazon Aurora](./img/160.png)
