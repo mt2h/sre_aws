@@ -426,3 +426,39 @@ Repo: https://github.com/mt2h/Site-Reliability-Engineering-on-AWS/tree/master/pa
 
 ![Creating a Resilient and Reliable Data Store for Python with Amazon Aurora](./img/159.png)
 ![Creating a Resilient and Reliable Data Store for Python with Amazon Aurora](./img/160.png)
+
+### Deploying App-Mesh
+
+![Deploying App-Mesh](./img/161.png)
+
+Un service mesh, en español "malla de servicios", es una infraestructura de red diseñada para gestionar la comunicación entre los distintos servicios que conforman una aplicación distribuida. Las aplicaciones modernas a menudo están compuestas por múltiples componentes o microservicios que interactúan entre sí para brindar funcionalidad completa. Sin embargo, a medida que el número de servicios crece, la gestión de la comunicación y la coordinación entre ellos puede volverse complicada.
+
+Un service mesh proporciona una capa de abstracción sobre la red subyacente y ofrece una serie de características que facilitan la administración de la comunicación entre microservicios. Algunas de las funcionalidades comunes de un service mesh son:
+
+1. **Descubrimiento de servicios:** Un service mesh permite a los microservicios descubrir y localizar dinámicamente a otros microservicios con los que necesitan comunicarse, sin requerir configuraciones estáticas.
+
+2. **Balanceo de carga:** Distribuye el tráfico de manera equitativa entre las instancias de un mismo servicio para garantizar la disponibilidad y la escalabilidad.
+
+3. **Seguridad:** Proporciona capacidades de autenticación y autorización para proteger las comunicaciones entre microservicios. Puede cifrar el tráfico entre ellos y autenticar las solicitudes.
+
+4. **Monitorización y observabilidad:** Un service mesh puede recopilar métricas, trazas y registros de las interacciones entre microservicios, lo que facilita la depuración y el análisis del rendimiento.
+
+5. **Control de tráfico:** Permite configurar reglas y políticas de enrutamiento para dirigir el tráfico de manera específica, como pruebas A/B, enrutamiento por canarios, etc.
+
+6. **Gestión de fallos:** Ofrece mecanismos para detectar y gestionar fallos en las comunicaciones entre microservicios. Puede realizar reintentos automáticos, circuit breaking y otros mecanismos de recuperación.
+
+Istio y Linkerd son ejemplos populares de implementaciones de service mesh. Estas herramientas se integran en la capa de comunicación entre los microservicios sin requerir cambios significativos en el código de la aplicación. En resumen, un service mesh es una solución que ayuda a las organizaciones a manejar las complejidades de las aplicaciones distribuidas al proporcionar control, seguridad y visibilidad en la comunicación entre microservicios.
+
+![Deploying App-Mesh](./img/162.png)
+![Deploying App-Mesh](./img/163.png)
+![Deploying App-Mesh](./img/164.png)
+![Deploying App-Mesh](./img/165.png)
+![Deploying App-Mesh](./img/166.png)
+![Deploying App-Mesh](./img/167.png)
+
+Repo: https://github.com/mt2h/Site-Reliability-Engineering-on-AWS/tree/master/packt-sre-code/packt-sre/IAC/12-appmesh
+
+![Deploying App-Mesh](./img/168.png)
+![Deploying App-Mesh](./img/169.png)
+![Deploying App-Mesh](./img/170.png)
+![Deploying App-Mesh](./img/171.png)
