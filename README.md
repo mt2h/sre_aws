@@ -462,3 +462,44 @@ Repo: https://github.com/mt2h/Site-Reliability-Engineering-on-AWS/tree/master/pa
 ![Deploying App-Mesh](./img/169.png)
 ![Deploying App-Mesh](./img/170.png)
 ![Deploying App-Mesh](./img/171.png)
+
+## Surviving Failure of a Global Scale
+
+#### Review: AWS Global Architecture and What We Have Just Built
+
+![Review: AWS Global Architecture and What We Have Just Built](./img/172.png)
+![Review: AWS Global Architecture and What We Have Just Built](./img/173.png)
+![Review: AWS Global Architecture and What We Have Just Built](./img/174.png)
+![Review: AWS Global Architecture and What We Have Just Built](./img/175.png)
+
+### Global Tools: Route 53, CloudFront
+
+![Global Tools: Route 53, CloudFront](./img/176.png)
+![Global Tools: Route 53, CloudFront](./img/177.png)
+![Global Tools: Route 53, CloudFront](./img/178.png)
+![Global Tools: Route 53, CloudFront](./img/179.png)
+![Global Tools: Route 53, CloudFront](./img/180.png)
+![Global Tools: Route 53, CloudFront](./img/181.png)
+![Global Tools: Route 53, CloudFront](./img/182.png)
+
+### Going Global: What Does This Mean For Your Users/Developers
+
+![Going Global: What Does This Mean For Your Users/Developers](./img/183.png)
+![Going Global: What Does This Mean For Your Users/Developers](./img/184.png)
+
+### Operational Changes Required For a Global Application
+
+![Going Global: What Does This Mean For Your Users/Developers](./img/185.png)
+![Going Global: What Does This Mean For Your Users/Developers](./img/186.png)
+![Going Global: What Does This Mean For Your Users/Developers](./img/187.png)
+![Going Global: What Does This Mean For Your Users/Developers](./img/188.png)
+
+## Summary
+
+![Summarys](./img/189.png)
+![Summarys](./img/190.png)
+![Summarys](./img/191.png)
+![Summarys](./img/192.png)
+![Summarys](./img/193.png)
+![Summarys](./img/194.png)
+![Summarys](./img/195.png)
